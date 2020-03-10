@@ -9,11 +9,14 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var counter = 0
 
     @IBOutlet weak var counterLabel: UILabel!
     
     @IBAction func buttonTapped(_ sender: Any) {
-        counterLabel.text = "🙌"
+        counter += 1
+        counterLabel.text = "\(counter)"
     }
 }
 
