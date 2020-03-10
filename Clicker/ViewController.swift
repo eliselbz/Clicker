@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var counterLabel: UILabel!
+    
     @IBAction func buttonTapped(_ sender: Any) {
         print("Hello, world")
     }
